@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+.nav, h1, h2 {
+    font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+}
+
+.btn, .nav-link {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-family: 'Mulish', Helvetica, Arial, sans-serif;
+}
+
+footer {
+    font-family: 'Mulish', Helvetica, Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav, .main__top {
+    background-image: url('../img/bg-pattern.png'), linear-gradient(to left,  rgb(124, 67, 149) 0%,  rgb(220, 34, 50) 100%); 
+    background-repeat: repeat;
+}
+
+.title {
+    color: rgb(245, 184, 80);
+} 
+ 
+.navbar-light .nav-item .nav-link {
+    color: rgb(245, 184, 80);
+} 
+
+.title:hover {
+    color: #FFF;
+}
+
+.navbar-light .nav-item .nav-link:hover {
+    color: #FFF;
+}
+
+.main__content {
+    color: #FFF;
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+.btn.btn-outline-light {
+    border-radius: 1.2rem;
+    width: 70%;
+} 
+
+.btn.btn-outline-light:hover {
+    background-color: #fdcc52;
+    border: 1px solid#fdcc52;
+    transition: all .3s ease;
+}
+ 
+.phone--img, .phone--img2 {
+    width: 250px;
+}
+
+.discoverSection {
+    background: rgb(253, 203, 78);
+}
+
+.stores img {
+    height: 60px;
+}
+
+.main__mid--three {
+    background-image: url('../img/bg-cta.jpg');
+    background-repeat: no-repeat;
+    filter: opacity(90%); 
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+}
+
+.main__footer {
+    background-color:rgb(253, 203, 78);
+}
+
+.linksFooter a {
+    color: rgb(100, 100, 100);
+}
+
+.heart {
+    color:rgba(255, 33, 12, .9);
+}
+
+.linksFooter a:hover {
+    color: #fdcc52;
+    text-decoration: none;
+}
+
+.fa-fb-bg {
+    color: #3b5998;
+    opacity: 0.9;
+}
+
+.fa-tw-bg {
+    color: #00acee;
+    opacity: 0.9;
+}
+
+.fa-gp-bg {
+    color: #db4a39;
+    opacity: 0.9;
+}
+
+.fa-fb-bg:hover {
+    color: #3b5998;
+    opacity: 1;
+}
+
+.fa-tw-bg:hover {
+    color: #00acee;
+    opacity: 1;
+}
+
+.fa-gp-bg:hover {
+    color: #db4a39;
+    opacity: 1;
+}
+
+.fa-twitter, .fa-facebook-f, .fa-google-plus-g {
+    color: #ffffff;
+}
+
+.fa-stack {
+    width: 64px;
+}
+
+.unicode {
+    font-size: 3rem;
+}
